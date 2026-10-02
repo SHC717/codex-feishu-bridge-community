@@ -1,0 +1,16 @@
+{
+  "release": "1.3.1",
+  "stateDatabase": "state_5.sqlite",
+  "stateStreamVersion": 11,
+  "larkCliVersion": "1.0.93",
+  "nodeMinimumMajor": 22,
+  "pythonMinimum": "3.12",
+  "powershellMinimumMajor": 7,
+  "testedCodexVersions": [
+    "26.924.1866.0",
+    "26.924.2738.0",
+    "26.930.2377.0"
+  ],
+  "codexVersionPolicy": "informational; validate official identity and live protocol capabilities",
+  "notificationMode": "normal"
+}

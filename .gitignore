@@ -1,0 +1,17 @@
+
+# Local identities, credentials, runtime state and generated material never belong here.
+**/deployment.json
+**/state/
+**/logs/
+**/lifecycle-receipts/
+**/node_modules/
+**/__pycache__/
+*.pyc
+*.lnk
+*.sqlite*
+*.db
+.env*
+*.log
+*.zip
+*.exe
+*.dll

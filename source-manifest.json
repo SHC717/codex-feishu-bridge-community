@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "community_version": "1.3.1-community.1",
+  "core_version": "1.3.1",
+  "upstream_commit": "1b02b4d8be7e3e2461f2950889ef5ca57d57d99f",
+  "scope": [
+    "codex-feishu-bridge",
+    "shared/windows-native"
+  ],
+  "history_imported": false,
+  "entries": [
+    {
+      "path": ".gitattributes",
+      "bytes": 70,
+      "sha256": "452c9b0cdde1adca951e0e83cc89b309889abce93b620ab7e63d40e11169f7fd",
+      "relation": "community_documentation_or_test"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 258,
+      "sha256": "a8ae900096b40a3ddf7d4d39fd452235f20734d48673a203384bb4a503d71ff0",
+      "relation": "community_documentation_or_test"
+    },
+    {
+      "path": "codex-feishu-bridge/.gitignore",
+      "bytes": 133,
+      "sha256": "e70210a8a4f9dcf1591773877e057a50e5a1c4277eeb4930f81b1b04cb4c6dc4",
+      "upstream_sha256": "e70210a8a4f9dcf1591773877e057a50e5a1c4277eeb4930f81b1b04cb4c6dc4",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/BackupLocation.Tests.ps1",
+      "bytes": 2028,
+      "sha256": "c5b8649339d38e008e2716f923cae356579bc58aa3a2713d03bc689de70f80af",
+      "relation": "community_documentation_or_test"
+    },
+    {
+      "path": "codex-feishu-bridge/bridge-core.mjs",
+      "bytes": 7346,
+      "sha256": "ef50c1c24b0bd882347ea5a7a6a6459c64fb9fb7d636c87e5b23ed26dd9ee2f3",
+      "upstream_sha256": "ef50c1c24b0bd882347ea5a7a6a6459c64fb9fb7d636c87e5b23ed26dd9ee2f3",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/bridge-core.test.mjs",
+      "bytes": 8728,
+      "sha256": "23e68294abfd768b6865b3ce2186de209f4f1da4e1dea3370f9ec15711445f3d",
+      "upstream_sha256": "23e68294abfd768b6865b3ce2186de209f4f1da4e1dea3370f9ec15711445f3d",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/bridge-engine.mjs",
+      "bytes": 19755,
+      "sha256": "ed523ed9a9f2b9affcc92c0a1b60a94c2e2032da130244ef23733e048944d8ff",
+      "upstream_sha256": "ed523ed9a9f2b9affcc92c0a1b60a94c2e2032da130244ef23733e048944d8ff",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/bridge-engine.test.mjs",
+      "bytes": 16201,
+      "sha256": "71af6da4c520aa3b83936bb121be469f11d5ed7aaacf9177a3315ffcb5d5e1e8",
+      "upstream_sha256": "71af6da4c520aa3b83936bb121be469f11d5ed7aaacf9177a3315ffcb5d5e1e8",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/Bridge-Environment.ps1",
+      "bytes": 12174,
+      "sha256": "2ff05d95528920d51c66aad6ad099dfacaf8bcb0aa27540bf6a4c3fb76c042b4",
+      "upstream_sha256": "8657fec0d50820c8f4e3e66823563ef71341c628628bf09845668a9545aa7837",
+      "relation": "community_adaptation"
+    },
+    {
+      "path": "codex-feishu-bridge/Bridge-Task.ps1",
+      "bytes": 7246,
+      "sha256": "64c3c2c70d065daa40b8f37c60945cd52719f97feb5d1e967834e11d2d3652ed",
+      "upstream_sha256": "64c3c2c70d065daa40b8f37c60945cd52719f97feb5d1e967834e11d2d3652ed",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/bridge-worker.mjs",
+      "bytes": 7293,
+      "sha256": "8b62baf4648b996564a40f9d7e3002d9ec2a60fa2a7b476dbf358125bab80d93",
+      "upstream_sha256": "8b62baf4648b996564a40f9d7e3002d9ec2a60fa2a7b476dbf358125bab80d93",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/Build-NoWindowHost.ps1",
+      "bytes": 1021,
+      "sha256": "620dba767a56598a1f5b6ee5acbf7259c264f653787148969aafc9aecea991f3",
+      "upstream_sha256": "620dba767a56598a1f5b6ee5acbf7259c264f653787148969aafc9aecea991f3",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/cli-transport.mjs",
+      "bytes": 1274,
+      "sha256": "98adc6fb043339b9f01efea4fb85c6bba890ecc05cbbfb8d473f266b8cc30715",
+      "upstream_sha256": "98adc6fb043339b9f01efea4fb85c6bba890ecc05cbbfb8d473f266b8cc30715",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/cli-transport.test.mjs",
+      "bytes": 1293,
+      "sha256": "fa23d6ac92a46076fcdb7586ac58a750575c428c4751b0e35ff124dbbdad46b0",
+      "upstream_sha256": "fa23d6ac92a46076fcdb7586ac58a750575c428c4751b0e35ff124dbbdad46b0",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/compatibility.json",
+      "bytes": 430,
+      "sha256": "f46719401a780e849e74227f42eb2281a949c6474bb0a683c1353ba48f2a3f8e",
+      "upstream_sha256": "f46719401a780e849e74227f42eb2281a949c6474bb0a683c1353ba48f2a3f8e",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/desktop-ipc-client.mjs",
+      "bytes": 14803,
+      "sha256": "63c3ccff9aad5a7c3969941bb558d94a1a5d5f9d499346e4d0f9bc2ceb09d3e1",
+      "upstream_sha256": "63c3ccff9aad5a7c3969941bb558d94a1a5d5f9d499346e4d0f9bc2ceb09d3e1",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/desktop-ipc-client.test.mjs",
+      "bytes": 19603,
+      "sha256": "e1b7e71ddbd8b6f41a40a53af4128fa74c674c039714ba36aa02729e5caf4833",
+      "upstream_sha256": "e1b7e71ddbd8b6f41a40a53af4128fa74c674c039714ba36aa02729e5caf4833",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/desktop-ipc-handshake.ps1",
+      "bytes": 3695,
+      "sha256": "107ce860c1abdcf03ea7bf4d64047879e54aeb51939a239f9eb79e93ab102ca5",
+      "upstream_sha256": "107ce860c1abdcf03ea7bf4d64047879e54aeb51939a239f9eb79e93ab102ca5",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/desktop-state.mjs",
+      "bytes": 12536,
+      "sha256": "42910908ea706c436920ae6a16d39d13bcc987f48f7b9fcc4ff1baf196670475",
+      "upstream_sha256": "42910908ea706c436920ae6a16d39d13bcc987f48f7b9fcc4ff1baf196670475",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/desktop-state.test.mjs",
+      "bytes": 12734,
+      "sha256": "a84782b66557b47fdcde32f0fa146693a92856d7a9d1e580f56481ef98d1ac68",
+      "upstream_sha256": "a84782b66557b47fdcde32f0fa146693a92856d7a9d1e580f56481ef98d1ac68",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/desktop-turns.mjs",
+      "bytes": 7631,
+      "sha256": "f867f4e2733e476fa2fcabfce3f54ccd1d2bd487bd17b8fb209943447e5acb91",
+      "upstream_sha256": "f867f4e2733e476fa2fcabfce3f54ccd1d2bd487bd17b8fb209943447e5acb91",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/desktop-turns.test.mjs",
+      "bytes": 8614,
+      "sha256": "1fd49da658a3dd5b2c692a50395f3ddfe4cee60cfe403c989925a16e76bc8803",
+      "upstream_sha256": "1fd49da658a3dd5b2c692a50395f3ddfe4cee60cfe403c989925a16e76bc8803",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/durable-state.mjs",
+      "bytes": 11675,
+      "sha256": "9379f8556aa4662014b91be6a95e455250bdbcdf961bd9e1a7e1f4c81fa039a4",
+      "upstream_sha256": "9379f8556aa4662014b91be6a95e455250bdbcdf961bd9e1a7e1f4c81fa039a4",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/durable-state.test.mjs",
+      "bytes": 15815,
+      "sha256": "a056afacf8150366a0882961a6313a28a88a47fcd1a735468afb793fe6653f54",
+      "upstream_sha256": "a056afacf8150366a0882961a6313a28a88a47fcd1a735468afb793fe6653f54",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/Environment.Tests.ps1",
+      "bytes": 5033,
+      "sha256": "b3808d620c51aa127b04add636fb7969959484b96f96c7386d04ff88dcd59ba0",
+      "upstream_sha256": "b3808d620c51aa127b04add636fb7969959484b96f96c7386d04ff88dcd59ba0",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/feishu-cards.mjs",
+      "bytes": 2856,
+      "sha256": "e90006d5be95b1b3743cf0a3e6be7beded3f47eb461a346fe17848185d95ce14",
+      "upstream_sha256": "e90006d5be95b1b3743cf0a3e6be7beded3f47eb461a346fe17848185d95ce14",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/Get-BridgeStatus.ps1",
+      "bytes": 12418,
+      "sha256": "f414d3ee9b0890b835ec04fee4e75321dec391ef59790c32ae2f4879a5d930a6",
+      "upstream_sha256": "f414d3ee9b0890b835ec04fee4e75321dec391ef59790c32ae2f4879a5d930a6",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/global-desktop-watcher.mjs",
+      "bytes": 15229,
+      "sha256": "96b67960367dc13538037b2f8e518295c5e7a3c8242645215dac2e8b0da41e79",
+      "upstream_sha256": "96b67960367dc13538037b2f8e518295c5e7a3c8242645215dac2e8b0da41e79",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/global-discovery-probe.mjs",
+      "bytes": 12430,
+      "sha256": "739f6fe94f2c90ec839ef45e3a6ae261859d639b94d8a76bccdb12db991a301d",
+      "upstream_sha256": "739f6fe94f2c90ec839ef45e3a6ae261859d639b94d8a76bccdb12db991a301d",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/health-notifier.mjs",
+      "bytes": 14259,
+      "sha256": "68b08e707ff981143962cc98c393eacdffdefad4c5c00582e9a496ba6f422b9b",
+      "upstream_sha256": "68b08e707ff981143962cc98c393eacdffdefad4c5c00582e9a496ba6f422b9b",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/health-notifier.test.mjs",
+      "bytes": 17361,
+      "sha256": "d4ce6a123f8415a6fbc88971bb6affce07dd2aa71c8be2565d23cc170d76d7cc",
+      "upstream_sha256": "d4ce6a123f8415a6fbc88971bb6affce07dd2aa71c8be2565d23cc170d76d7cc",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/Install-Bridge.ps1",
+      "bytes": 12902,
+      "sha256": "2faa397d028e3ee6da515d2c02daf90ab4748f32e5034740f3abc0b9e1d2cf98",
+      "upstream_sha256": "954954ca78152b7ae2dc8605542773af1a04e659f06e52aa3382f188a7eae0d7",
+      "relation": "community_adaptation"
+    },
+    {
+      "path": "codex-feishu-bridge/Lifecycle.Tests.ps1",
+      "bytes": 5396,
+      "sha256": "4fb4f0e2c28202d30e716cd7bc491e00ff431892e2054cd9dfb004652273ad2f",
+      "upstream_sha256": "4fb4f0e2c28202d30e716cd7bc491e00ff431892e2054cd9dfb004652273ad2f",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/list-user-threads.py",
+      "bytes": 3283,
+      "sha256": "c37145c9ead665ec01cbd40bdb922d648b6a624dab4228d8bf1cf9a2b11db1a4",
+      "upstream_sha256": "c37145c9ead665ec01cbd40bdb922d648b6a624dab4228d8bf1cf9a2b11db1a4",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/message-routing.mjs",
+      "bytes": 936,
+      "sha256": "26af869fea64c6047b2a902aba27878e853dc98ad24ad3a2f965b6e7e2c33276",
+      "upstream_sha256": "26af869fea64c6047b2a902aba27878e853dc98ad24ad3a2f965b6e7e2c33276",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/metadata.test.py",
+      "bytes": 3913,
+      "sha256": "901f5eb1911debce080b7c469f95f8a934bdabd9635c85d18517207110af63c0",
+      "upstream_sha256": "901f5eb1911debce080b7c469f95f8a934bdabd9635c85d18517207110af63c0",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/NoWindowHost.cs",
+      "bytes": 4405,
+      "sha256": "cbbece5fef331967b51bf89f2d5fea32d294371339957d687574f0d627785150",
+      "upstream_sha256": "cbbece5fef331967b51bf89f2d5fea32d294371339957d687574f0d627785150",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/NoWindowHost.Tests.ps1",
+      "bytes": 3481,
+      "sha256": "a2216a227be4b615f93bcb60cb35c7f54f5cd583696897d1add6e242d478419b",
+      "upstream_sha256": "a2216a227be4b615f93bcb60cb35c7f54f5cd583696897d1add6e242d478419b",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/profile-transport.mjs",
+      "bytes": 1193,
+      "sha256": "4959054f626b75648c6c5102a38a07462ee5be4f8e426c87c08a3ac27b9d8df5",
+      "upstream_sha256": "4959054f626b75648c6c5102a38a07462ee5be4f8e426c87c08a3ac27b9d8df5",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/profile-transport.test.mjs",
+      "bytes": 3061,
+      "sha256": "3bfd500ffe070d36d2bacab47dd1a456392914bc76423ffa935cbdf6299f3cf5",
+      "upstream_sha256": "3bfd500ffe070d36d2bacab47dd1a456392914bc76423ffa935cbdf6299f3cf5",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/README.md",
+      "bytes": 16887,
+      "sha256": "383d1ffd1a2b12255f88da2b6dea4a59482e47c53c70c2eb5217062d172e73c2",
+      "relation": "community_documentation_or_test"
+    },
+    {
+      "path": "codex-feishu-bridge/result-delivery.test.mjs",
+      "bytes": 4569,
+      "sha256": "ed0a7f46ccafd7969bdadc2ea409074d9046150a0f7c5aa4a32f86f99fdeaf80",
+      "upstream_sha256": "ed0a7f46ccafd7969bdadc2ea409074d9046150a0f7c5aa4a32f86f99fdeaf80",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/result-format.mjs",
+      "bytes": 7121,
+      "sha256": "9adc59bf655755b055f6ae41827322a2ee0ecf26ea08b7776d9378fb4a5761ec",
+      "upstream_sha256": "9adc59bf655755b055f6ae41827322a2ee0ecf26ea08b7776d9378fb4a5761ec",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/result-format.test.mjs",
+      "bytes": 3474,
+      "sha256": "f98408eab5cf451e8d5c82f2db31a0c6e181e04c2b18312a699d0b4f4908d74e",
+      "upstream_sha256": "f98408eab5cf451e8d5c82f2db31a0c6e181e04c2b18312a699d0b4f4908d74e",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/Run-Bridge.ps1",
+      "bytes": 3992,
+      "sha256": "ac78a1ce26ade6a1bbd2b5b3e214748c492732bee430f101a402dccd5c5e3ebf",
+      "upstream_sha256": "ac78a1ce26ade6a1bbd2b5b3e214748c492732bee430f101a402dccd5c5e3ebf",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/Start-Bridge.ps1",
+      "bytes": 1366,
+      "sha256": "fa2cffb52ea17eb9f91bf349c2e0ef73284a19f645002932989075dfac7993d8",
+      "upstream_sha256": "fa2cffb52ea17eb9f91bf349c2e0ef73284a19f645002932989075dfac7993d8",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/Stop-Bridge.ps1",
+      "bytes": 1917,
+      "sha256": "fccf87f53affc388c23dc2a90d0d8c361418ffa84f1243a2b5c0795485831bdf",
+      "upstream_sha256": "fccf87f53affc388c23dc2a90d0d8c361418ffa84f1243a2b5c0795485831bdf",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/supervisor-delivery.test.mjs",
+      "bytes": 1263,
+      "sha256": "7ad35bf9b0349efe82f307173b1b4861a2ba63295ae1742b403b6ec973d39783",
+      "upstream_sha256": "7ad35bf9b0349efe82f307173b1b4861a2ba63295ae1742b403b6ec973d39783",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/supervisor-health.mjs",
+      "bytes": 2644,
+      "sha256": "c278ece2c62470229c822d994203d8d72389b6068ad6479866faf05676849739",
+      "upstream_sha256": "c278ece2c62470229c822d994203d8d72389b6068ad6479866faf05676849739",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/supervisor-health.test.mjs",
+      "bytes": 2423,
+      "sha256": "7386458aaeead3946184bf7b7a4eb839d1a92e669de03323834fc11af9f84009",
+      "upstream_sha256": "7386458aaeead3946184bf7b7a4eb839d1a92e669de03323834fc11af9f84009",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/supervisor.mjs",
+      "bytes": 11574,
+      "sha256": "e0d5ecb02e838d6c7aa3be28ee49a9e9040d9d99b737424b1d598084209763be",
+      "upstream_sha256": "e0d5ecb02e838d6c7aa3be28ee49a9e9040d9d99b737424b1d598084209763be",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/Test-BridgeEnvironment.ps1",
+      "bytes": 1588,
+      "sha256": "8bfb2ff290a4e9b1fb7a7c9971e3e51d5d40da515bb1225217079d3c5b08d79f",
+      "upstream_sha256": "8bfb2ff290a4e9b1fb7a7c9971e3e51d5d40da515bb1225217079d3c5b08d79f",
+      "relation": "unchanged"
+    },
+    {
+      "path": "codex-feishu-bridge/Test-BridgeRecovery.ps1",
+      "bytes": 8658,
+      "sha256": "5e44f9e2e594a1c23914702bb2fd851c77999c2e9b53deaccfae074289dbf014",
+      "upstream_sha256": "5e44f9e2e594a1c23914702bb2fd851c77999c2e9b53deaccfae074289dbf014",
+      "relation": "unchanged"
+    },
+    {
+      "path": "COMMUNITY.md",
+      "bytes": 1813,
+      "sha256": "601b0a19ed8defb00939126cd1e3d2bf8cd4a9b480f8aa9850c04c9547963801",
+      "relation": "community_documentation_or_test"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3564,
+      "sha256": "505d029ca127787ab0b36beb42712541929007257333c7e9561871f046c0ec42",
+      "relation": "community_documentation_or_test"
+    },
+    {
+      "path": "shared/windows-native/README.md",
+      "bytes": 720,
+      "sha256": "98575a399a730acefd23d83cbd2f8fbdf95356ce98d1d97cd4bba29bd0c39bc2",
+      "relation": "community_documentation_or_test"
+    },
+    {
+      "path": "shared/windows-native/Test-WindowsNativeContext.ps1",
+      "bytes": 378,
+      "sha256": "52cf47fdb0abc6d7688b9daeea55e99c0545aefd7bd681a52ee13e6ee679723a",
+      "upstream_sha256": "52cf47fdb0abc6d7688b9daeea55e99c0545aefd7bd681a52ee13e6ee679723a",
+      "relation": "unchanged"
+    },
+    {
+      "path": "shared/windows-native/WindowsNative.psm1",
+      "bytes": 9057,
+      "sha256": "2a07835c99fe535e01f7f8ab1bb01d81a50b3dcaa023457622e4b5c8021d5252",
+      "upstream_sha256": "2a07835c99fe535e01f7f8ab1bb01d81a50b3dcaa023457622e4b5c8021d5252",
+      "relation": "unchanged"
+    },
+    {
+      "path": "shared/windows-native/WindowsNative.Tests.ps1",
+      "bytes": 4070,
+      "sha256": "173e3b95632199bb209cef1efe968e67eda028bd52225cc1279989df34d838a4",
+      "upstream_sha256": "173e3b95632199bb209cef1efe968e67eda028bd52225cc1279989df34d838a4",
+      "relation": "unchanged"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 1599,
+      "sha256": "cad776fc43a10a8f0218dd1dc377d0a3bd672ad002950c542b774b672862a289",
+      "relation": "community_documentation_or_test"
+    }
+  ],
+  "manifest_self_excluded": true
+}

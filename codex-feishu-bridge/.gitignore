@@ -1,0 +1,14 @@
+deployment.json
+state/
+logs/
+lifecycle-receipts/
+*.lnk
+*.png
+*.sqlite*
+*.db
+.env*
+__pycache__/
+*.pyc
+node_modules/
+
+NoWindowHost.exe
