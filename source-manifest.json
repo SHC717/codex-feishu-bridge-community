@@ -378,14 +378,14 @@
     },
     {
       "path": "COMMUNITY.md",
-      "bytes": 1813,
-      "sha256": "601b0a19ed8defb00939126cd1e3d2bf8cd4a9b480f8aa9850c04c9547963801",
+      "bytes": 2099,
+      "sha256": "a2b098cd975075869d230767b93cabdeddfbe6ba2d81c44d735b4ba6d7191eea",
       "relation": "community_documentation_or_test"
     },
     {
       "path": "README.md",
-      "bytes": 3564,
-      "sha256": "505d029ca127787ab0b36beb42712541929007257333c7e9561871f046c0ec42",
+      "bytes": 4348,
+      "sha256": "298f746639cb2cbf8267ada5255545a4d8edebe859e9601b632d9dda4ee7ee85",
       "relation": "community_documentation_or_test"
     },
     {
@@ -417,8 +417,8 @@
     },
     {
       "path": "VALIDATION.md",
-      "bytes": 1599,
-      "sha256": "cad776fc43a10a8f0218dd1dc377d0a3bd672ad002950c542b774b672862a289",
+      "bytes": 2232,
+      "sha256": "234d33033cba7513d078e90e1834701dcb72a718a2d4e4403c490e014b852ede",
       "relation": "community_documentation_or_test"
     }
   ],
